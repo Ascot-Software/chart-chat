@@ -32,6 +32,50 @@ Allowed imports, if you need any of them, import yourself, otherwise, do not imp
 - functools
 - operator
 
+Allowed builtins imports:
+- abs
+- all
+- any
+- ascii
+- bin
+- bool
+- bytearray
+- bytes
+- chr
+- complex
+- dict
+- divmod
+- enumerate
+- filter
+- float
+- format
+- frozenset
+- hash
+- hex
+- int
+- iter
+- len
+- list
+- map
+- max
+- min
+- next
+- oct
+- ord
+- pow
+- range
+- repr
+- reversed
+- round
+- set
+- slice
+- sorted
+- str
+- sum
+- tuple
+- zip
+- isinstance
+
 [TEMPLATE]
 
 ```python

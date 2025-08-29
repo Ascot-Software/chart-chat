@@ -251,7 +251,7 @@ def get_app_config():
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Data Formulator")
-    parser.add_argument("-p", "--port", type=int, default=5000, help="The port number you want to use")
+    parser.add_argument("-p", "--port", type=int, default=4000, help="The port number you want to use")
     parser.add_argument("-e", "--exec-python-in-subprocess", action='store_true', default=False,
         help="Whether to execute python in subprocess, it makes the app more secure (reducing the chance for the model to access the local machine), but increases the time of response")
     parser.add_argument("-d", "--disable-display-keys", action='store_true', default=False,
@@ -279,6 +279,6 @@ def run_app():
     app.run(host='0.0.0.0', port=args.port, threaded=True, debug=debug_mode, use_reloader=debug_mode)
 
 if __name__ == '__main__':
-    #app.run(debug=True, host='127.0.0.1', port=5000)
+    #app.run(debug=True, host='127.0.0.1', port=4000)
     #use 0.0.0.0 for public
     run_app()

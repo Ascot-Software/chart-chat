@@ -99,7 +99,7 @@ Play with Data Formulator with one of the following options:
   python -m data_formulator
   ```
 
-  Data Formulator will be automatically opened in the browser at [http://localhost:5000](http://localhost:5000).
+  Data Formulator will be automatically opened in the browser at [http://localhost:4000](http://localhost:4000).
 
   *Update: you can specify the port number (e.g., 8080) by `python -m data_formulator --port 8080` if the default port is occupied.*
 
